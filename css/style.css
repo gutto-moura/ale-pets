@@ -137,3 +137,21 @@ nav ul li:hover .text{
 /* FIM SEÇÃO HOME */
 
 /* INÍCIO ESTILIZAÇÃO SEÇÃO PRODUTOS */
+.section-produtos{
+	background-color: #ccc;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.slider-container{
+	max-width: 1120px;
+	width: 100%;
+	padding: 40px;
+}
+.slide-content{
+	margin: 0 40px;
+}
+.card{
+	border-radius: 25px;
+	background-color: #FFF;
+}
