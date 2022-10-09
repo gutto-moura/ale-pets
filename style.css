@@ -4,6 +4,8 @@
 	box-sizing: border-box;
 	font-family: 'Albert Sans', sans-serif;	
 }
+
+/* INÍCIO ESTILZAÇÃO DO HEADER*/ 
 header{
 	display: flex;
 	justify-content: space-between;
@@ -17,18 +19,17 @@ header div img{
 }
 nav{
 	display: flex;
-
 	justify-content: space-between;
 	padding: 20px;
 }
-ul{
+nav ul{
 	display: flex;
 	font-size: 17px;
 	gap: 25px;
 	position: relative;
 	
 }
-ul li{
+nav ul li{
 	margin-left: 20px;
 	list-style-type: none;
 	align-items: center;
@@ -43,11 +44,11 @@ ul li{
 	transition: 0.5s;
 	width: 60px;
 }
-ul li:hover{
+nav ul li:hover{
 	box-shadow: 0 10px 25px rgba(0, 0, 0, 0);
 	width: 150px;
 }
-ul li::before{
+nav ul li::before{
 	border-radius: 60px;
 	content: '';
 	inset: 0;
@@ -55,10 +56,8 @@ ul li::before{
 	position: absolute;
 	transition: 0.5s;
 }
-ul li:hover::before{
-	opacity: 1;
-}
-ul li::after{
+nav ul li:hover::before{ opacity: 1; }
+nav ul li::after{
 	background: linear-gradient(45deg, var(--i), var(--j));
 	content: '';
 	filter: blur(15px);
@@ -70,25 +69,19 @@ ul li::after{
 	width: 100%;
 	z-index: -1;
 }
-
-ul li:hover::after{
-	opacity: 0.5;
-}
-
-ul li ion-icon{
+nav ul li:hover::after{ opacity: 0.5; }
+nav ul li ion-icon{
 	color: #FFD700;
 	font-size: 1.75rem;
 	transition: 0.5s;
 }
-ul li:hover ion-icon{
+nav ul li:hover ion-icon{
 	color: Yellow;
 	transform: scale(0);
 	transition-delay: 0;
 }
-ul li span{
-	position: absolute;
-}
-ul li .text{
+nav ul li span{ position: absolute; }
+nav ul li .text{
 	color: Yellow;
 	font-size: 1rem;
 	letter-spacing: 0.1rem;
@@ -97,18 +90,19 @@ ul li .text{
 	transition-delay: 0s;
 	transition: 0.5s;
 }
-ul li:hover .text{
+nav ul li:hover .text{
 	transform: scale(1);
 	transition-delay: 0.25;
 }
+/* FIM HEADER */
 
+/* INÍCIO ESTILIZAÇÃO SEÇÃO HOME*/
 .section-home{
 	display: flex;
 	justify-content: space-around;
 	width: 100%;
 	background-color: #000; 
 }
-
 .imagem-home img{
 	width: 800px;
 	margin-right: 40px;
@@ -123,32 +117,23 @@ ul li:hover .text{
 	color: #fff;
 	text-align: center;
 	margin-left: 50px;
-	/* EFEITO VIDRO
-	background: rgba( 255, 255, 255, 0.35 );
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-  backdrop-filter: blur( 13.5px );
-  -webkit-backdrop-filter: blur( 13.5px );
-  border-radius: 10px;
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
-	padding: 30px;
-	height: 300px;
-	*/
 }
 .nome-petshop h2{
 	font-size: 50px;
 	margin-bottom: 20px;
 	font-weight: 400;
 	color:#F0E68C;
-
 }
 .nome-petshop h1{
 	font-size: 100px;
 	margin-bottom: 10px;
 	color:   Yellow	;
-
 }
 .nome-petshop h3{
 	font-size: 30px;
 	font-weight: 400;
 	color: 	#F0E68C;
 }
+/* FIM SEÇÃO HOME */
+
+/* INÍCIO ESTILIZAÇÃO SEÇÃO PRODUTOS */
