@@ -127,8 +127,9 @@ nav ul li:hover .text{
 .nome-petshop h1{
 	font-size: 100px;
 	margin-bottom: 10px;
-	color:   Yellow	;
+	color: yellow;
 }
+
 .nome-petshop h3{
 	font-size: 30px;
 	font-weight: 400;
@@ -138,20 +139,84 @@ nav ul li:hover .text{
 
 /* INÍCIO ESTILIZAÇÃO SEÇÃO PRODUTOS */
 .section-produtos{
-	background-color: #ccc;
+	background-color: #fff;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 .slider-container{
-	max-width: 1120px;
+	max-width: 100%;
 	width: 100%;
-	padding: 40px;
+	padding: 25px;
 }
 .slide-content{
 	margin: 0 40px;
 }
 .card{
-	border-radius: 25px;
-	background-color: #FFF;
+	border-radius: 10px;
+	max-width: 300px;
+	box-shadow: rgba(0, 0, 0, 0.45) 0px 1px 4px;
+	cursor: pointer;
+}
+.card div:not(:first-child){
+	padding: 20px;
+}
+
+.image-content{
+	display: flex;
+	justify-content: center;
+	background-color: Gold;
+	width: 100%;
+	border-radius: 10px 10px 0 25px;
+	padding: 10px 10px;
+
+
+}
+.image-content::before,
+.image-content::after{
+	content: "";
+	position: absolute;
+	right: 0;
+	bottom: 107px;
+	height: 41px;
+	width: 40px;
+	background-color: Gold;
+}
+.image-content::after{
+	border-radius: 0 30px 0 0;
+	background-color: #fff;
+	
+}
+.image-content img{
+	width: 250px;
+}
+.titulo-anuncio{
+	
+}
+
+.dados-compra{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.dados-compra span{
+	font-size: 20px;
+	font-weight: bold;
+}
+.dados-compra button{
+	padding: 10px;
+	background-color: #32CD32;
+	font-weight: bold;
+	font-size: 15px;
+	border: none;
+	border-radius: 10px;
+}
+
+.send-outline{
+font-weight: bold;
+margin-bottom: -2px;
+font-size: 15px;
+}
+.swiper-pagination{
+	padding: 20px;
 }
