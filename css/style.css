@@ -129,7 +129,6 @@ nav ul li:hover .text{
 	margin-bottom: 10px;
 	color: yellow;
 }
-
 .nome-petshop h3{
 	font-size: 30px;
 	font-weight: 400;
@@ -161,9 +160,7 @@ nav ul li:hover .text{
 	width: 100%;
 	padding: 25px;
 }
-.slide-content{
-	margin: 0 40px;
-}
+.slide-content{ margin: 0 40px; }
 .card{
 	border-radius: 10px;
 	max-width: 300px;
@@ -171,10 +168,7 @@ nav ul li:hover .text{
 	cursor: pointer;
 	background-color: #fffb94;
 }
-.card div:not(:first-child){
-	padding: 20px;
-}
-
+.card div:not(:first-child){ padding: 20px; }
 .image-content{
 	display: flex;
 	justify-content: center;
@@ -192,9 +186,7 @@ nav ul li:hover .text{
 .titulo-anuncio{
 	font-size: 13px;
 	font-weight: bold;
-	
 }
-
 .dados-compra{
 	display: flex;
 	justify-content: space-between;
@@ -212,9 +204,11 @@ nav ul li:hover .text{
 	border: none;
 	border-radius: 10px;
 }
-
 .send-outline{
-font-weight: bold;
-margin-bottom: -2px;
-font-size: 15px;
+	font-weight: bold;
+	margin-bottom: -2px;
+	font-size: 15px;
 }
+/* FIM SEÇÃO PRODUTOS*/
+
+/* INÍCIO ESTILIZAÇÃO SEÇÃO PRODUTOS */
