@@ -219,14 +219,17 @@ nav ul li:hover .text{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	margin-top: 20px;
 }
 .titulo .static-txt{
 	color:#000;
 	font-size: 60px;
 	font-family: 400;
 	text-align: center;
+	font-weight: bold;
 }
-.section-sobre-nos .titulo .dinamic-txts{
+
+.titulo .dinamic-txts{
 	margin-left: 15px;
 	height: 90px;
 	line-height: 90px;
@@ -239,7 +242,7 @@ nav ul li:hover .text{
 	font-weight: bold;
 	position: relative;
 	top: 0;
-	animation: slide 12s steps(4) infinite;
+	animation: slide 12s steps(1) infinite;
 }
 @keyframes slide{
 	100% { top: -360px }
@@ -266,4 +269,29 @@ nav ul li:hover .text{
 	100%{
 		left: 0;
 	}
+}
+.descricao-ale{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+.carrossel{
+	overflow: hidden;
+	height: 400px;
+	width: 400px;
+	border-radius: 25px;
+}
+.txt-descrição{
+	width: 50%;
+}
+.galery{
+	display: flex;
+	transition: transform 0.5s ease-in-out;
+	transform: translate(0);
+	width: 50%;
+}
+.galery img{
+	object-fit: cover;
+	height: 400px;
+	width: 400px;
 }
