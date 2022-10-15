@@ -214,12 +214,15 @@ nav ul li:hover .text{
 /* INÍCIO ESTILIZAÇÃO SEÇÃO PRODUTOS */
 .section-sobre-nos{
 	width: 100%;
+	background-color: #eee;
+	padding: 10px;
+	margin-bottom: 20px;
 }
 .titulo{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-top: 20px;
+	margin-bottom: 20px;
 }
 .titulo .static-txt{
 	color:#000;
@@ -227,6 +230,7 @@ nav ul li:hover .text{
 	font-family: 400;
 	text-align: center;
 	font-weight: bold;
+
 }
 
 .titulo .dinamic-txts{
@@ -237,7 +241,7 @@ nav ul li:hover .text{
 }
 .dinamic-txts li{
 	list-style: none;
-	color: #fead26;
+	color: #FF8C00;
 	font-size: 60px;
 	font-weight: bold;
 	position: relative;
@@ -258,8 +262,8 @@ nav ul li:hover .text{
 	left: 0;
 	height: 100%;
 	width: 100%;
-	background-color: #fff;
-	border-left: 3px solid gold;
+	background-color: #eee;
+	border-left: 4px solid #FF8C00;
 	animation: typing 3s steps(10) infinite;
 }
 @keyframes typing{
@@ -271,27 +275,34 @@ nav ul li:hover .text{
 	}
 }
 .descricao-ale{
-	width: 100%;
 	display: flex;
 	justify-content: space-around;
+	flex-wrap: wrap;
 }
 .carrossel{
 	overflow: hidden;
-	height: 400px;
-	width: 400px;
+	height: 300px;
+	width: 300px;
 	border-radius: 25px;
 }
 .txt-descrição{
 	width: 50%;
+	letter-spacing: 1px;
+	line-height: 25px;
+	font-size: 20px;
+	padding: 20px;
+	
 }
 .galery{
 	display: flex;
 	transition: transform 0.5s ease-in-out;
 	transform: translate(0);
-	width: 50%;
+	width: 100%;
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 .galery img{
 	object-fit: cover;
-	height: 400px;
-	width: 400px;
+	height: 300px;
+	width: 300px;
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }

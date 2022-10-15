@@ -26,7 +26,7 @@ function carrosselAlePets(){
 		valorInicial = 0
 	}
 
-	imagens.style.transform = `translatex(${-valorInicial * 400}px)`;
+	imagens.style.transform = `translatex(${-valorInicial * 300}px)`;
 }
 
 setInterval(carrosselAlePets, 1800);
