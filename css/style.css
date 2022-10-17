@@ -161,7 +161,6 @@ nav ul li:hover .text{
 	padding: 25px;
 }
 .slide-content{ 	margin: 0 40px; }
-
 .card{
 	border-radius: 10px;
 	min-width: 280px;
@@ -318,8 +317,6 @@ nav ul li:hover .text{
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
-
-
 }
 .container-depoimentos img{
 	margin-bottom: 10px;
