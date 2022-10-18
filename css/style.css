@@ -154,60 +154,25 @@ nav ul li:hover .text{
 	margin-top: 30px;
 	font-size: 50px;
 	color: yellow;
+	margin-bottom: 20px;
 }
-.slider-container{
-	max-width: 1200px;
-	width: 100%;
-	padding: 25px;
-}
-.slide-content{ 	margin: 0 40px; }
-.card{
-	border-radius: 10px;
-	min-width: 280px;
-	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-	cursor: pointer;
-	background-color: #fffb94;
-}
-.card div:not(:first-child){ padding: 20px; }
-.image-content{
+.container-produtos{
+	width: 90%;
 	display: flex;
 	justify-content: center;
+}
+.item-produto{
+	width: 250px;
+	color: gold;
+	text-align: center;
+	margin-left: 20px;
+
+}
+.item-produto img{
 	width: 100%;
-	border-radius: 10px;
-	max-height: 200px;
-	background-color: #ffec50;
-}
- .image-content img{
-	width: 100%;
-	height: 200px;
-	margin-bottom: 20px;
-	border-radius: 10px 10px 0 0;
-}
-.titulo-anuncio{
-	font-size: 13px;
-	font-weight: bold;
-}
-.dados-compra{
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
-.dados-compra span{
-	font-size: 20px;
-	font-weight: bold;
-}
-.dados-compra button{
-	padding: 10px;
-	background-color: #32CD32;
-	font-weight: bold;
-	font-size: 15px;
-	border: none;
-	border-radius: 10px;
-}
-.send-outline{
-	font-weight: bold;
-	margin-bottom: -2px;
-	font-size: 15px;
+	border-radius: 16px;
+	margin-bottom: 10px;
+
 }
 /* FIM SEÇÃO PRODUTOS*/
 
