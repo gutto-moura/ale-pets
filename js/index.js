@@ -14,19 +14,3 @@ var swiper = new Swiper(".slide-content", {
 	},
 });
 
-const imagens = document.getElementById('img');
-const imagem = document.querySelectorAll("#img img");
-
-let valorInicial = 0;
-
-function carrosselAlePets(){
-	valorInicial++;
-
-	if(valorInicial > imagem.length -1){
-		valorInicial = 0
-	}
-
-	imagens.style.transform = `translatex(${-valorInicial * 300}px)`;
-}
-
-setInterval(carrosselAlePets, 1800);

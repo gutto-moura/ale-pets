@@ -152,7 +152,7 @@ nav ul li:hover .text{
 	margin-top: 30px;
 	font-size: 35px;
 	font-weight: 400;
-	color: yellow;
+	color: #ffe229;
 }
 
 .underline{
@@ -171,7 +171,7 @@ nav ul li:hover .text{
 }
 .item-produto{
 	width: 250px;
-	color: gold;
+	color: #ffe229;
 	text-align: center;
 	margin-left: 30px;
 	background-color: #212121;
@@ -187,6 +187,13 @@ nav ul li:hover .text{
 .item-produto h2{
 	margin-bottom: 20px;
 	margin-top: -5px;
+}
+.titulos{
+	margin-top: 30px;
+	font-size: 35px;
+	font-weight: 400;
+	color: #ffe229;
+	text-align: center;
 }
 .item-produto span{
 	font-size: 13px;
@@ -213,6 +220,7 @@ nav ul li:hover .text{
 }
 .item-produto strong{
 	font-size: 50px;
+	color: #ffe229;
 }
 
 /* FIM SEÇÃO PRODUTOS*/
@@ -220,73 +228,36 @@ nav ul li:hover .text{
 /* INÍCIO ESTILIZAÇÃO SEÇÃO SOBRE-NOS */
 .section-sobre-nos{
 	width: 100%;
-	background-color: #eee;
+	background-color: #212121;
 	padding: 20px;
 	box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
 }
-.titulo{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-.titulo .static-txt{
-	color:#000;
-	font-size: 60px;
-	font-family: 400;
-	text-align: center;
-	font-weight: bold;
-}
-.titulo .dinamic-txts{
-	margin-left: 15px;
-	height: 90px;
-	line-height: 90px;
-	overflow: hidden;
-}
-.dinamic-txts li{
-	list-style: none;
-	color: #FF8C00;
-	font-size: 60px;
-	font-weight: bold;
-	position: relative;
-	top: 0;
-	animation: slide 12s steps(1) infinite;
-}
-@keyframes slide{ 100% { top: -360px } }
-.dinamic-txts li span{
-	position: relative;
-	margin: 5px 0;
-	line-height: 90px; 
-}
-.dinamic-txts li span::after{
-	content: "";
-	position: absolute;
-	left: 0;
-	height: 100%;
-	width: 100%;
-	background-color: #eee;
-	border-left: 4px solid #FF8C00;
-	animation: typing 3s steps(10) infinite;
-}
-@keyframes typing{
-	40%, 60%{
-		left: calc(100% + 30px);
-	}
-	100%{
-		left: 0;
-	}
+.section-sobre-nos h2{
+	margin-top: 30px;
+	font-size: 35px;
+	font-weight: 400;
+	color: #ffe229;
 }
 .descricao-ale{
 	display: flex;
+	width: 90%;
 	justify-content: space-around;
+	margin: 0 auto;
 	flex-wrap: wrap;
+	margin-top: 50px;
 }
 .carrossel{
 	overflow: hidden;
-	height: 300px;
-	width: 300px;
-	border-radius: 25px;
+	height: 400px;
+	width: 400px;
+	border-radius: 3px;
 }
 .txt-descrição{
+	background-color: #212121;
+	padding: 20px;
+	border: 1px solid #333333;
+	color: #F0E68C;
+	text-align: center;
 	width: 50%;
 	letter-spacing: 1px;
 	line-height: 25px;
@@ -301,8 +272,8 @@ nav ul li:hover .text{
 }
 .galery img{
 	object-fit: cover;
-	height: 300px;
-	width: 300px;
+	height: 400px;
+	width: 400px;
 }
 /* FINAL SEÇÃO SOBRE-NOS */
 
