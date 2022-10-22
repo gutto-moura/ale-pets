@@ -183,10 +183,39 @@ nav ul li:hover .text{
 	align-items: center;
 	margin-bottom: 30px;
 	cursor: pointer;
+	position: relative;
+	overflow: hidden;
 }
-.item-produto h2{
-	margin-bottom: 20px;
-	margin-top: -5px;
+.item-produto:hover .botao{
+	opacity: 1;
+	height: 100%;
+}
+.item-produto .botao{
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	bottom: 0;
+	width: 100%;
+	height: 0%;
+	background-color: rgba(0,0,0,0.7);
+	opacity: 0;
+	transition: 0.7s ease;
+	text-decoration: none;
+}
+.btn{
+	padding: 7px 10px;
+	cursor: pointer;
+	border-radius: 10px;
+	font-weight: bold;
+	background-color: #F1E42D;
+	font-size: 16px;
+}
+.btn ion-icon{
+	font-size: 23px;
+	margin-bottom: -6px;
 }
 .titulos{
 	margin-top: 30px;
@@ -199,12 +228,10 @@ nav ul li:hover .text{
 	margin-bottom: 20px;
 	color:#F0E68C;
 }
-
 .item-produto strong{
 	font-size: 50px;
 	color: #ffe229;
 }
-
 /* FIM SEÇÃO PRODUTOS*/
 
 /* INÍCIO ESTILIZAÇÃO SEÇÃO SOBRE-NOS */
@@ -228,13 +255,16 @@ nav ul li:hover .text{
 	display: flex;
 	width: 80%;
 	margin: 0 auto;
+	align-items: center;
 }
 .carrossel{
 	overflow: hidden;
-	height: 500px;
+	height: 400px;
 	width: 500px;
 	border-radius: 3px;
+	margin-bottom: 10px;
 	margin-top: 10px;
+
 }
 .txt-descrição{
 	color: #F0E68C;
@@ -242,7 +272,7 @@ nav ul li:hover .text{
 	letter-spacing: 1px;
 	line-height: 25px;
 	font-size: 20px;
-	padding: 50px;
+	padding-left: 50px;
 }
 .galery{
 	display: flex;
@@ -251,8 +281,8 @@ nav ul li:hover .text{
 .galery img{
 	object-fit: cover;
 	border-radius: 5px;
-	height: 100%;
-	width: 100%;
+	height: 400px;
+	width: 400px;
 }
 /* FINAL SEÇÃO SOBRE-NOS */
 
