@@ -319,3 +319,39 @@ nav ul li:hover .text{
 	box-shadow: rgba(255,239,129, 0.3) 0px 2px 8px 0px;
 	margin-bottom: 20px;
 }
+
+
+.section-contatos{
+	width: 100%;
+	position: relative;
+	height: 400px;
+}
+.section-contatos h2{
+	font-size: 35px;
+	text-align: center;
+	font-weight: 400;
+	color: #ffe229;
+	margin-top: -150px;
+	position: relative;
+}
+.custom-shape-divider-top-1666787432 {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	overflow: hidden;
+	line-height: 0;
+	transform: rotate(180deg);
+}
+
+
+.custom-shape-divider-top-1666787432 svg {
+	position: relative;
+	display: block;
+	width: calc(100% + 1.3px);
+	height: 150px;
+}
+
+.custom-shape-divider-top-1666787432 .shape-fill {
+	fill: #000;
+}
